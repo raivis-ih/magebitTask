@@ -7,7 +7,7 @@ class Controller
         $this->view = new View();
     }
 
-    //Gets inputted url and loads it's model if it exists
+    //Gets entered url and loads it's model if it exists
 
     public function loadModel($name)
     {
