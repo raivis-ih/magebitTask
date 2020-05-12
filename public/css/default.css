@@ -3,7 +3,7 @@ html * {
 }
 
 body {
-    background-image: url("/MageBitPHP/public/images/Background.png");
+    background-image: url("/magebitTask/public/images/Background.png");
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
@@ -207,14 +207,14 @@ input[id=email], input[id=regemail] {
     box-sizing: border-box;
     border: none;
     color: #8495b7;
-    background-image: url(/MageBitPHP/public/images/ic_mail.png);
+    background-image: url(/magebitTask/public/images/ic_mail.png);
     background-repeat: no-repeat;
     background-position: 270px 10px;
     border-bottom: 2px solid #8495b7;
 }
 
 input[id=email]:focus, input[id=regemail]:focus {
-    background-image: url(/MageBitPHP/public/images/ic_mail_active.png);
+    background-image: url(/magebitTask/public/images/ic_mail_active.png);
 }
 
 input[id=password], input[id=regpassword] {
@@ -223,14 +223,14 @@ input[id=password], input[id=regpassword] {
     box-sizing: border-box;
     border: none;
     color: #8495b7;
-    background-image: url(/MageBitPHP/public/images/ic_lock.png);
+    background-image: url(/magebitTask/public/images/ic_lock.png);
     background-repeat: no-repeat;
     background-position: 270px 10px;
     border-bottom: 2px solid #8495b7;
 }
 
 input[id=password]:focus, input[id=regpassword]:focus {
-    background-image: url(/MageBitPHP/public/images/ic_lock_active.png);
+    background-image: url(/magebitTask/public/images/ic_lock_active.png);
 }
 
 input[id=regusername] {
@@ -239,14 +239,14 @@ input[id=regusername] {
     box-sizing: border-box;
     border: none;
     color: #8495b7;
-    background-image: url(/MageBitPHP/public/images/ic_user.png);
+    background-image: url(/magebitTask/public/images/ic_user.png);
     background-repeat: no-repeat;
     background-position: 270px 10px;
     border-bottom: 2px solid #8495b7;
 }
 
 input[id=regusername]:focus {
-    background-image: url(/MageBitPHP/public/images/ic_user_active.png);
+    background-image: url(/magebitTask/public/images/ic_user_active.png);
 }
 
 input[type=submit] {
