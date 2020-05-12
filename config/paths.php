@@ -1,3 +1,3 @@
 <?php
 
-define('URL', 'http://localhost/MageBitPHP/');
+define('URL', 'http://localhost/magebitTask/');
