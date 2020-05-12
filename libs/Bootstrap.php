@@ -10,7 +10,7 @@ class Bootstrap
         $url = rtrim($url, '/');
         $url = explode('/', $url);
 
-        //If nothing is entered after websites homepage redirects back to index page
+        //If nothing is entered after initial website url redirects back to index page
 
         if (empty($url[0])) {
             require 'controllers/index.php';
@@ -19,7 +19,7 @@ class Bootstrap
             return false;
         }
 
-        //Loads controller from inputted url and loads it if the file exists
+        //Loads controller from entered url and loads it if the file exists
 
         $file = 'controllers/' . $url[0] . '.php';
         if (file_exists($file)) {
