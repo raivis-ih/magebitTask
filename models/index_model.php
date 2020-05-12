@@ -26,7 +26,7 @@ class index_model extends Model
 
     }
 
-    //Executes query which gets users id if the inputted email and password matches
+    //Executes query which gets users id if the entered email and password matches
 
     public function select(array $data)
     {
